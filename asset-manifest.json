@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Namtran592005/utility-tools-website.git/static/css/main.0c17a52e.css",
+    "main.js": "/Namtran592005/utility-tools-website.git/static/js/main.2a44fda0.js",
+    "static/js/453.d3153ebe.chunk.js": "/Namtran592005/utility-tools-website.git/static/js/453.d3153ebe.chunk.js",
+    "index.html": "/Namtran592005/utility-tools-website.git/index.html",
+    "main.0c17a52e.css.map": "/Namtran592005/utility-tools-website.git/static/css/main.0c17a52e.css.map",
+    "main.2a44fda0.js.map": "/Namtran592005/utility-tools-website.git/static/js/main.2a44fda0.js.map",
+    "453.d3153ebe.chunk.js.map": "/Namtran592005/utility-tools-website.git/static/js/453.d3153ebe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c17a52e.css",
+    "static/js/main.2a44fda0.js"
+  ]
+}
