@@ -2,7 +2,7 @@
   "name": "utility-tools-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Namtran592005.github.io/utility-tools-website",
+  "homepage": "https://namtran592005.github.io/utility-tools-website",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
