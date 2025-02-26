@@ -1,0 +1,11 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+.title{
+    color: var(--primary-color);
+}
+
+.content {
+    line-height: 1.6;
+}

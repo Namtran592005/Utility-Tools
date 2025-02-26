@@ -1,0 +1,8 @@
+/* src/components/UnitConverter/UnitConverter.module.css */
+.inputField {
+    transition: var(--transition); /* Áp dụng biến transition */
+}
+
+.inputField:hover {
+    transform: scale(1.02); /* Hiệu ứng phóng to nhẹ khi hover */
+}

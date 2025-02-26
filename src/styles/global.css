@@ -1,0 +1,36 @@
+/* src/styles/global.css */
+@import url('./variables.css'); /* Import biến CSS */
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color var(--transition), color var(--transition); /* Thêm transition */
+
+}
+
+.light-mode {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+.dark-mode{
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Reset CSS (tùy chọn - bạn có thể dùng normalize.css) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}

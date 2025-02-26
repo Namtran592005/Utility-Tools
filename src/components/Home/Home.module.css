@@ -1,0 +1,17 @@
+.title {
+    color: var(--primary-color); /* Sử dụng biến CSS */
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: var(--text-color-light);
+    margin-bottom: 2rem;
+}
+.card{
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hiệu ứng hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng */
+}

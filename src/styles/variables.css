@@ -1,0 +1,24 @@
+/* src/styles/variables.css */
+:root {
+    --primary-color: #1976d2; /* Màu chủ đạo */
+    --secondary-color: #dc004e;
+    --background-color-light: #fff;
+    --background-color-dark: #121212;
+    --text-color-light: #000;
+    --text-color-dark: #fff;
+    --header-bg-color-light: #000; /* Màu nền header ở chế độ sáng */
+    --header-bg-color-dark: #1e1e1e;
+    --header-text-color-light: #fff;
+    --header-text-color-dark: #fff;
+    --font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  
+      /* Màu cho các trạng thái (ví dụ) */
+    --success-color: #4caf50;
+    --error-color: #f44336;
+    --warning-color: #ff9800;
+    --info-color: #2196f3;
+  
+    /* Transition */
+    --transition: all 0.3s ease-in-out;
+  
+  }
