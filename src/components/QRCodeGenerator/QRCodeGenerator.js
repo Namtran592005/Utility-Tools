@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { QRCodeCanvas } from 'qrcode.react'; // Sửa lại import
+import QRCode from 'qrcode.react';
 import { TextField, Button, Grid, Typography, Box } from '@mui/material';
 import { FormattedMessage } from 'react-intl';
 import { motion } from 'framer-motion';
@@ -68,7 +68,7 @@ function QRCodeGenerator() {
                 <Grid item xs={12}>
                     {text && (
                         <Box display="flex" justifyContent="center">
-                            <QRCodeCanvas  // Sử dụng QRCodeCanvas
+                            <QRCode  // Sử dụng QRCodeCanvas
                                 value={text}
                                 size={256}
                                 level="H"
@@ -77,18 +77,31 @@ function QRCodeGenerator() {
                         </Box>
                     )}
                     {text && download && (
-                        <Box display="flex" justifyContent="center" mt={2}>
-                            <a
-                                href={document.getElementById('qr-code')?.toDataURL("image/png")}
-                                download="qrcode.png"
-                                style={{ textDecoration: 'none' }}
-                            >
-                                <Button variant="contained" color="primary">
-                                    <FormattedMessage id="qrCodeGenerator.download" />
-                                </Button>
-                            </a>
-                        </Box>
-                    )}
+              <Box display="flex" justifyContent="center" mt={2}>
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const canvas = document.getElementById('qr-code');
+                    if (canvas) {
+                        const url = canvas.toDataURL();
+                        const link = document.createElement('a');
+                        link.href = url;
+                        link.download = 'qrcode.png';
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+
+                    }
+                  }}
+                  style={{ textDecoration: 'none' }}
+                >
+                  <Button variant="contained" color="primary">
+                    <FormattedMessage id="qrCodeGenerator.download" />
+                  </Button>
+                </a>
+             </Box>
+            )}
                 </Grid>
             </Grid>
         </div>

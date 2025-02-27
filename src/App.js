@@ -88,7 +88,7 @@ function AppContent(){
                 <Container sx={{ py: 4, minHeight: 'calc(100vh - 64px - 64px)'  }} >
                     {/*  minHeight để Footer luôn ở dưới cùng */}
                     <Routes>
-                        <Route path="/" element={<Home />} />
+                        <Route path="" element={<Home />} />
                         <Route path="/unit-converter" element={<UnitConverter />} />
                         <Route path="/currency-converter" element={<CurrencyConverter />} />
                         <Route path="/qrcode-generator" element={<QRCodeGenerator />} />
