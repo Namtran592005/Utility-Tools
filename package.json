@@ -1,8 +1,8 @@
 {
-  "name": "utility-tools-website",
+  "name": "Utility-Tools",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://namtran592005.github.io/utility-tools-website",
+  "homepage": "https://namtran592005.github.io/Utility-Tools",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
